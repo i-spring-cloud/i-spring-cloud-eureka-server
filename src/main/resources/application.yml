@@ -11,3 +11,5 @@ eureka:
     fetch-registry: false
     service-url:
       default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
+logging:
+  file: /data/logs/icloud/${spring.application.name}.log
