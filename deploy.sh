@@ -51,7 +51,7 @@ build(){
     mvn clean package
     echo "maven package complete......"
 
-    rm ${USER_HOME}/build/${APP_NAME}
+    rm ${USER_HOME}/build/${JAR_FILE}
     echo "remove old jar package complete......"
 
     cp ${PROJECT_HOME}/target/i-spring-cloud-eureka-server-1.0.0.jar /home/icloud/build
